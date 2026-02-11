@@ -1,0 +1,48 @@
+import { Listing } from './listing.model';
+
+export const MOCK_LISTINGS: Listing[] = [
+  {
+    id: '1',
+    title: 'Modern Sea Point Apartment',
+    city: 'Cape Town',
+    suburb: 'Sea Point',
+    bedrooms: 1,
+    maxGuests: 2,
+    imageUrl: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=60',
+    availableFrom: '2026-12-01',
+    availableTo: '2026-12-20',
+  },
+  {
+    id: '2',
+    title: 'Family Home in Claremont',
+    city: 'Cape Town',
+    suburb: 'Claremont',
+    bedrooms: 3,
+    maxGuests: 6,
+    imageUrl: 'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=60',
+    availableFrom: '2026-12-05',
+    availableTo: '2027-01-10',
+  },
+  {
+    id: '3',
+    title: 'City Apartment near Sandton',
+    city: 'Johannesburg',
+    suburb: 'Sandton',
+    bedrooms: 2,
+    maxGuests: 4,
+    imageUrl: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=60',
+    availableFrom: '2026-12-10',
+    availableTo: '2026-12-30',
+  },
+  {
+    id: '4',
+    title: 'Loft in Maboneng',
+    city: 'Johannesburg',
+    suburb: 'Maboneng',
+    bedrooms: 1,
+    maxGuests: 2,
+    imageUrl: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1200&q=60',
+    availableFrom: '2026-11-25',
+    availableTo: '2026-12-15',
+  },
+];
